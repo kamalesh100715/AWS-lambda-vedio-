@@ -1,6 +1,6 @@
-# Automating  MediaConvert Jobs with Lambda
+# to create vedio with AWS lambda and pushing it to a cube
 
-NOTE: Please also see [Workflow-WatchfolderAndNotification](./Workflow-WatchfolderAndNotification/README.md) for a Lambda sample that includes job status notifications.
+
 
 In this module, you'll use Amazon S3 events and Lambda to automatically trigger AWS Elemental MediaConvert jobs. The ability to watch S3 folders and take action on incoming items is a useful automation technique that enables the creation of fully unattended workflows. In our case, the user will place videos in a folder on AWS S3 which will trigger an ingest workflow to convert the video.  We'll use the job definition from the previous modules as the basis for our automated job.  
 
